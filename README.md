@@ -18,7 +18,7 @@ This Arduino project is a compact weather station that combines environmental se
 - **DHT11 Sensor:**
   - Connect the data pin of the DHT11 sensor to digital pin 2 on the Arduino Mega 2560.
 
-- **NEO-6M GPS Module:**
+- **U-Blox NEO-M8N GPS Module:**
   - Connect the RX pin of the U-Blox NEO-M8N GPS module to digital pin 18 (TX1) on the Arduino Mega 2560.
   - Connect the TX pin of the U-Blox NEO-M8N GPS module to digital pin 19 (RX1) on the Arduino Mega 2560.
 
@@ -43,7 +43,7 @@ This Arduino project is a compact weather station that combines environmental se
    - All collected data is presented on a clear and concise 0.96-inch OLED screen, providing a compact and visually appealing user interface.
 
 ## Dependencies
-This project relies on the Adafruit GFX and Adafruit SSD1306 libraries for interfacing with the OLED display. Make sure to install these libraries in your Arduino IDE before uploading the code.
+This project relies on the TinyGPSPlus, Wire, dht11, Adafruit GFX and Adafruit SSD1306 libraries for interfacing with the OLED display. Make sure to install these libraries in your Arduino IDE before uploading the code.
 
 ## Usage
 1. Connect the DHT11 sensor, U-Blox NEO-M8N GPS module, and OLED display to the Arduino board as per the provided wiring diagram.
